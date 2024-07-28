@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pythonprojectdrf-coursework"
+version = "0.1.0"
+description = ""
+authors = ["Nastya Foxe <Kukusiki2204@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.7"
+djangorestframework = "^3.15.2"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
